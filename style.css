@@ -1,0 +1,217 @@
+@font-face {
+  font-family: Monotype;
+  src: url(
+      assets/fonts/gt.otf
+    )format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+body {
+  font-family: Monotype;
+  background: white;
+  background-color: #e7e7e7;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 5px;
+  padding: 0px;
+}
+
+nav {
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  height: 100%;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px #c4c4c4;
+}
+
+header {
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  height: 100%;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px #c4c4c4;
+}
+
+dark {
+  padding: 10px;
+  background-color: #212121;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.875em;
+  text-shadow: 3px 3px black;
+}
+
+
+aside {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 5px;
+  float: right;
+  width: 30%;
+  box-shadow: 2px 2px #c4c4c4;
+}
+
+abide {
+  padding: 10px;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 5px;
+  float: right;
+  width: 30%;
+  color: #e7e7e7;
+}
+
+content {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 5px;
+  float: left;
+  width: 63%;
+  margin-right: auto;
+  box-shadow: 2px 2px #c4c4c4;
+}
+
+prog {
+  padding: 2px;
+  color: white;
+  background-color: #121212;
+  border: 1px solid #212121;
+}
+
+prog > k {
+  color: #008cba;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 1px solid #e7e7e7;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+ul.nav li a.active:hover {
+  background-color: #141414;
+}
+
+
+ul.nav li a.active {
+  color: white;
+  background-color: #212121;
+  text-shadow: 3px 3px black;
+}
+
+a {
+  color: #327cd4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #134482;
+  text-decoration: underline;
+  background-color: #ddd;
+}
+
+ul.games {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #c4c4c4;
+}
+
+ul.games li a {
+  display: block;
+  color: #666;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #c4c4c4;
+}
+
+/* Change the link color on hover */
+ul.games li a:hover {
+  background-color: #ddd;
+}
+
+ul.games li a.active:hover {
+  background-color: #016c8f;
+}
+
+ul.games li a.active {
+  color: white;
+  background-color: #008cba;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 1.875em;
+}
+
+@media screen and (max-width: 700px) {
+  aside {
+  display: none;
+}
+  abide {
+  display: none;
+}
+  content {
+  float: left;
+  width: 100%;
+  }
+
+}
+
+red {
+  color: #ba0000;
+}
+
+green {
+  color: #00ba00;
+}
+
+yellow {
+  color: #bab400;
+}
+
+blue {
+  color: #008cba;
+}
+
+darkblue {
+  color: #0038ba;
+}
+
